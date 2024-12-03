@@ -3,6 +3,12 @@
 ## Project Summary
 This repository contains an analysis aimed at predicting climate change outcomes using machine learning models trained on historical weather data. The analysis focuses on identifying climate patterns that can inform planning and adaptation strategies, particularly for extreme weather events and renewable energy opportunities.
 
+## Objectives
+1. **Identifying Regional Anamalies**: Detecting weather patterns that fall outside normal regional trends to understand emerging risks.
+2. **Assessing the Increase in Unusual Weather Events**: Analyzing trends to determine if extreme weather occurrences are becoming more frequent or severe.
+3. **Forecasting Future Climate Scenarios**: Projecting future weather conditions over the next25 to 50 years based on current climate trends.
+4. **Identifying Safe Havens**: Determining the safest places for people to live by understanding which areas will be most resilient to climate change in the coming decades.
+
 ## Key Questions
 1. **Extreme Weather Prediction**: Can machine learning models identify patterns in wind speed, pressure, and precipitation that signal the potential formation of typhoons or hurricanes in vulnerable regions?
 2. **Solar Energy Forecasting**: Can models trained on global radiation and cloud cover data forecast high-sunshine days, which may indicate increased solar energy potential?
@@ -41,5 +47,8 @@ The project evaluates a range of supervised machine learning models, including:
 - **K-Nearest Neighbors (KNN)**
 - **Decision Tree**
 - **Artificial Neural Network (ANN)**
+- **Convolutional Neural Network (CNN)**
+- **Recurrent Neural Network (RNN)**
+- **Random Forest**
 
 These models are compared and assessed based on accuracy, interpretability, and suitability for climate outcome prediction.
